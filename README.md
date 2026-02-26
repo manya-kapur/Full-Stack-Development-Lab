@@ -1,7 +1,8 @@
 # Full-Stack-Development-Lab
-This conatains a portfolio webpage using HTML and CSS. 
-The aim is to design and develop a responsive web page using Bootstrap front end framework.
+A Student registration form by using HTML, CSS, and JavaScript.
+The aim is to design a Client-side Form Validations using JavaScript, DOM real-time update, JQuery to develop Ajax based applications.
+
 Objectives:
-1. To understand HTML tags
-2. To learn the styling of web pages using CSS
-3. To learn Bootstrap Front End Framework.
+1. To understand what is form validation.
+2. To learn basic functioning of DOM objects.
+3. To learn how to apply various techniques to implement it.
