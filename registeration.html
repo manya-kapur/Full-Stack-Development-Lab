@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        body { font-family: Arial; }
+        .error { color: red; }
+    </style>
+</head>
+
+<body>
+<h2>Student Registration Form</h2>
+
+<form id="regForm">
+    Username: <input type="text" id="username"><br><br>
+    Email: <input type="text" id="email"><br><br>
+    Phone: <input type="text" id="phone"><br><br>
+    Password: <input type="password" id="password"><br><br>
+    Confirm Password: <input type="password" id="confirm"><br><br>
+
+    <button type="submit">Register</button>
+</form>
+
+<p id="msg" class="error"></p>
+<script src ="jquery.js"></script>
+<script src="registeration.js"></script>
+</body>
+</html>
