@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@500;600&display=swap');
+
+/* Page background */
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #1a1a1a, #0c0c0c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: #e6e1d5;
+}
+
+/* Form container effect */
+form {
+    background-color: #141414;
+    padding: 40px 45px;
+    border-radius: 10px;
+    width: 360px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.9rem;
+    margin-bottom: 30px;
+    color: #c9a45c;
+}
+
+/* Labels (text before inputs) */
+form {
+    font-size: 0.95rem;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 6px;
+    background-color: #1c1c1c;
+    border: 1px solid #2a2a2a;
+    border-radius: 6px;
+    color: #e6e1d5;
+    font-size: 0.95rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #c9a45c;
+    box-shadow: 0 0 0 1px rgba(201, 164, 92, 0.4);
+}
+
+/* Button */
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #c9a45c;
+    color: #0c0c0c;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #e0c27a;
+    transform: translateY(-1px);
+}
+
+/* Message text */
+#msg {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* Error message */
+.error {
+    color: #e57373;
+}
+
+/* Smooth transitions */
+input, button {
+    transition: all 0.25s ease;
+}
