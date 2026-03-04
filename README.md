@@ -4,5 +4,7 @@ We write server-side script in PHP to perform form validation and create databas
 
 Objectives:
 To understand Server-side Scripting.
+
 To learn database connectivity using PHP-MySQL.
+
 To perform insert, update, delete and search operations on database.
